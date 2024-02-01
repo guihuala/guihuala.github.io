@@ -1,5 +1,6 @@
 ---
 date: 2024-01-31
+cover: https://wx2.sinaimg.cn/mw690/006tyh1fgy1hhd2uazegbj30sc0mgtc7.jpg
 category:
   - 同人创作
 tag:
@@ -68,42 +69,6 @@ unity中创建的2d项目其实也是3d项目，所以感觉创建的项目会�
 因为jks本人实在是太厉害了，天影战记和咖啡厅都是独立制作而且功能非常完整的游戏。
 感觉受到了鼓舞，于是觉得做一个连缘同人游戏也不能苟且，所以在开始做游戏的初期就花了很多大饼，考虑了很多想做的东西。
 
-```mindmap
-root((VuePress))
-  Out of box
-    Default theme
-      Navbar
-      Sidebar
-      Darkmode
-    I18n
-    Search
-      Search
-      DocSearch<br />by algolia
-  Customize
-    Theme
-      (hope)
-    Plugins
-      (components)
-      (md-enhance)
-      (photo-swipe)
-      (copy-code2)
-      (copyright2)
-      (feed2)
-      (sitemap2)
-      (seo2)
-
-```
-
-```journey
-title My working day
-section Go to work
-  Make tea: 5: Me
-  Go upstairs: 3: Me
-  Do work: 1: Me, Cat
-section Go home
-  Go downstairs: 5: Me
-  Sit down: 5: Me
-```
 ### 游戏开发进度
 总而言之进度特别缓慢，本人特别懒两个月才做一段时间。而且对于unity这个引擎也几乎还是处在初学的状态。两个致命的原因加在一块导致进度特别慢。
 

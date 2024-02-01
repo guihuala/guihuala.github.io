@@ -7,12 +7,14 @@ export default hopeTheme({
 
   author: {
     name: "桂花拉糕",
-    url: "https://guihuala.github.io/",
+    url: "https://github.com/guihuala",
   },
 
   iconAssets: "//at.alicdn.com/t/c/font_4429117_ieyl61ep8k.css",
 
   logo: "/桂花泥图标.png",
+
+  favicon: "/logo.ico",
 
   repo: "https://github.com/guihuala",
 
@@ -36,13 +38,12 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
+    timeline: "当下",
     description: "新鲜的桂花糕",
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/39258274",
       GitHub: "https://github.com/guihuala",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
       Twitter: "https://twitter.com/HoyleLorel96127",
       Weibo: "https://weibo.com/u/5933479313",
     },
@@ -51,7 +52,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt": ["ghlg"],
+      "/oc/encrypt": ["ghlg"],
     },
   },
 
@@ -72,7 +73,13 @@ export default hopeTheme({
     searchPro: true,
     
     components: {
-      components: ["Badge", "VPCard"],
+      components: [
+      "Badge", 
+      "VPCard",
+      "BiliBili",
+      "Share",
+      "SiteInfo"
+    ],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。

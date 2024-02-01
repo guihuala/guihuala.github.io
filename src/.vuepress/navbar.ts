@@ -24,6 +24,7 @@ export default navbar([
      
       { text: "鸡肉面条", icon: "pen-to-square", link: "chickennoodles" },
       { text: "黑巫鸟与建筑学", icon: "pen-to-square", link: "kurojiAndArch" },
+      { text: "幸福鹀家人", icon: "pen-to-square", link: "happyshitodo" },
       "strawberry", 
       {
         text: "无现里中学系列",
@@ -38,7 +39,11 @@ export default navbar([
       },
     ],
   },
-
+  {
+    text: "收藏链接",
+    icon: "link",
+    link:"/link",
+  },
   {
     text: "时间轴",
     icon: "reloadtime",

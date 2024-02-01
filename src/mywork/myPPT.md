@@ -1,4 +1,5 @@
 ---
+title: 幻灯片
 layout: Slide
 ---
 

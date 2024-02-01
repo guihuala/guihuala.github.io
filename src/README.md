@@ -3,36 +3,35 @@ home: true
 layout: BlogHome
 icon: home
 title: 桂花blog主页
-heroImage: /故障桂花.png
-heroText: 桂花小站
-bgImage: http://szyyj.gd.gov.cn/img/0/697/697112/3628306.jpg
+heroText: false
+heroImage: /ghlg.png
+bgImage: /assets/images/星.png
 heroFullScreen: true
-tagline: 齁甜桂花拉糕
 projects:
-  - icon: project
-    name: 黑巫鸟对答案
-    desc: ai生成的低质量系列文章
+  - icon: /logo.ico
+    name: 本blog
+    desc: 原地tp
     link: /post/kuroji
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
+    name: 英文连缘维基
+    desc: 角色黑当多了也不要忘记一设
+    link: https://lenen.shoutwiki.com/wiki/Len%27en_Wiki
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+  - icon: https://static.thwiki.cc/favicon.ico
+    name: thbwiki
+    desc: 此生无悔入东方，来世愿生无现里
+    link: https://thwiki.cc/%E8%BF%9E%E7%BC%98Project
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - icon: https://img.alicdn.com/imgextra/i4/O1CN01c26iB51UyR3MKMFvk_!!6000000002586-2-tps-124-122.png
+    name: 通义千问
+    desc: 本blog第二作者
+    link: https://tongyi.aliyun.com/qianwen/
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - icon: https://v1.vuepress.vuejs.org/logo.png
+    name: vuepress官网
+    desc: 该放那个版本的呢。这里放了1.0
+    link: https://v1.vuepress.vuejs.org/zh/
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
     name: 网站主题官网
