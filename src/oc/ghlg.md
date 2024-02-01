@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: 自设
 # 你可以自定义封面图片
-cover: /assets/images/cover1.jpg
+cover: /assets/images/桂花拉糕两视图.jpg
 # 这是侧边栏的顺序
 order: 3
 # 设置写作时间
@@ -21,9 +21,9 @@ star: true
 footer: kiwi~~~
 ---
 
-# 桂花拉糕
-
 和自我介绍页面有区分，这边主要是人设的介绍。
+
+![Alt text](/QRcode.jpg "桂花拉糕的公众号" =200x)
 
 
 
