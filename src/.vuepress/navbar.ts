@@ -11,6 +11,8 @@ export default navbar([
     children: [
       { text: "连缘同人游戏",  link: "myLEgame" },
       { text: "同人画作",  link: "myArt" },
+      { text: "同人文",  link: "myArticle" },
+      { text: "幻灯片",  link: "myPPT" },
     ],
   },
 
@@ -19,6 +21,10 @@ export default navbar([
     icon: "eye",
     prefix: "/posts/",
     children: [
+     
+      { text: "鸡肉面条", icon: "pen-to-square", link: "chickennoodles" },
+      { text: "黑巫鸟与建筑学", icon: "pen-to-square", link: "kurojiAndArch" },
+      "strawberry", 
       {
         text: "无现里中学系列",
         icon: "pen-to-square",
@@ -30,9 +36,6 @@ export default navbar([
           },
         ],
       },
-      { text: "鸡肉面条", icon: "pen-to-square", link: "chickennoodles" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "strawberry",
     ],
   },
 
