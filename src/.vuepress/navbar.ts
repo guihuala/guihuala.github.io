@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  "/oc/",
 
   {
     text: "同人整合",
@@ -10,7 +10,7 @@ export default navbar([
     prefix: "/mywork",
     children: [
       { text: "连缘同人游戏",  link: "myLEgame" },
-
+      { text: "同人画作",  link: "myArt" },
     ],
   },
 
@@ -30,26 +30,7 @@ export default navbar([
           },
         ],
       },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
+      { text: "鸡肉面条", icon: "pen-to-square", link: "chickennoodles" },
       { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
       "strawberry",
     ],

@@ -1,16 +1,21 @@
 ---
+title: 桂花拉糕
 icon: circle-info
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive_Cake.jpg/1920px-Sweet_Tea_Olive_Cake.jpg
 ---
 
-# 桂花拉糕
+> [!tip]
+> 本blog使用[vuepress-theme-hero主题](https://theme-hope.vuejs.press/zh/)搭建。感谢主题的开发者！
+
+![Alt text](/QRcode.jpg "桂花拉糕的公众号" =200x)
 
 ## 桂花拉糕简介
 
-本blog使用[vuepress-theme-hero主题](https://theme-hope.vuejs.press/zh/)。感谢主题的开发者们！
+桂花拉糕，姓`桂花`名`拉糕`。性别`不明`（生理性别为女）。
 
-### 种族概况
+### 桂花拉糕的种族
 
+以下选项框中的图片来自[中文wikipidia](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5 "中文wiki百科")，可能会无法显示。
 
 ::: tabs
 

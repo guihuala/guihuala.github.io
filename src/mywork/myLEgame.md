@@ -11,6 +11,96 @@ sticky: true
 
 # Le Monotonic World
 
-unity开发的2d动作游戏。计划所有工作一个人完成，所以游戏什么时候能做完demo都变得遥遥无期。
-
 ## 游戏概况
+
+中文名**连缘单调世界**，花名`盗版黑白世界`，连缘蛋雕世界。比较文盲想不出什么更加合适而且不那么直白的译名，所以暂时就这么叫着吧。
+
+`unity开发的2d动作游戏`。计划所有工作一个人完成，所以游戏什么时候能做完demo都变得遥遥无期。
+
+桂花拉糕很懒而且很菜，两个月左右开始一次连续性“开发”。打引号是因为我觉得我算不上开发者，从水平上、持续时间种种方面来说。
+
+这个页面会跟踪盗版黑白世界的“开发”进度。
+
+### 为什么突然做这个游戏
+
+**jks在2016年画的黑白世界的饼到2023年暑假还是毫无动静！**
+
+![Alt text](https://images.shoutwiki.com/lenen/c/cd/MWTeaser.jpg "正版黑白世界概念图" =200x)
+
+因为感觉到正版黑白世界遥遥无期了，刚好又想试试看做游戏，于是就开始做了这个盗版黑白世界`Le Monotonic World`。
+
+以下都是一些无关紧要的、个人的一些感受，所以用了折叠框。
+::: details 关于引擎
+
+最开始是想用godot做的，godot非常轻量而且内置的gdscript（是叫这个吗？）也比较友好。但是godot有个问题就是教程有点少。
+个人感觉对于初学者来说如果做简单的小游戏的话用godot是没问题的，但是如果要做很多复杂的系统的话可能就没那么好找教程。
+
+不过一开始想要用godot还有一个原因是当时以为unity是使用就要收费的。后来发现这玩意开发的游戏没什么人气的话就可以免费使用（复述有误导性还是看官方的协议吧），
+于是还是选择了unity。
+
+不过和godot比起来，unity实在是太臃肿了，我的电脑上面光是unity就已经18个G了。godot就要小得多。
+而且有段时间unity搞了个很恶心的收费规则，当时很多游戏制作者都开始抵制unity，抵制的方式就是推行unrea和godot之类的其他引擎。
+于是现在的godot教程应该也不少。
+
+还有人说godot只适合2d游戏开发，但是后来godot的4.0版本据说3d游戏开发性能也很不错。所以感觉godot还是很值得一试的！
+unity中创建的2d项目其实也是3d项目，所以感觉创建的项目会相当臃肿。所以做2d游戏的话还是试一试godot！
+
+:::
+
+::: details 关于编程语言
+
+因为一开始想用godot所以去看着官方的教程。用官方的素材按部就班地完成了那个独眼怪物的小游戏。
+
+[官方的2d模式教程](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html "官方的2d模式教程")
+
+![Alt text](https://docs.godotengine.org/en/stable/_images/dodge_preview.gif "官方的2d游戏完成图" =200x)
+
+然后就初次接触了gdscript（godot也支持c#和c++，但是后面的版本好像不支持c++了，不过都用godot了为啥还用c++呢）。
+听说gdscript比较类似python，学起来也会快一点。unity的话主要用c#。这两种引擎用的语言哪个更难，网上应该是普遍认为unity的难一点。虽然和c++一比两个都还行。
+所以再推荐一下godot。
+
+:::
+
+可喜的是后来jks发布了黑白世界的游戏视频，jks终于开始做黑白世界了啊！虽然正版黑白世界已经开做了，体验版的发布估计也是几年之内的事情，但是盗版黑白世界还是会继续做下去的。
+
+### 游戏计划
+
+因为jks本人实在是太厉害了，天影战记和咖啡厅都是独立制作而且功能非常完整的游戏。
+感觉受到了鼓舞，于是觉得做一个连缘同人游戏也不能苟且，所以在开始做游戏的初期就花了很多大饼，考虑了很多想做的东西。
+
+```mindmap
+root((VuePress))
+  Out of box
+    Default theme
+      Navbar
+      Sidebar
+      Darkmode
+    I18n
+    Search
+      Search
+      DocSearch<br />by algolia
+  Customize
+    Theme
+      (hope)
+    Plugins
+      (components)
+      (md-enhance)
+      (photo-swipe)
+      (copy-code2)
+      (copyright2)
+      (feed2)
+      (sitemap2)
+      (seo2)
+
+```
+
+```journey
+title My working day
+section Go to work
+  Make tea: 5: Me
+  Go upstairs: 3: Me
+  Do work: 1: Me, Cat
+section Go home
+  Go downstairs: 5: Me
+  Sit down: 5: Me
+```

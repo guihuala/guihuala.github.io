@@ -5,14 +5,14 @@ icon: home
 title: 桂花blog主页
 heroImage: /故障桂花.png
 heroText: 桂花小站
-bgImage: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive_Cake.jpg/1920px-Sweet_Tea_Olive_Cake.jpg
+bgImage: http://szyyj.gd.gov.cn/img/0/697/697112/3628306.jpg
 heroFullScreen: true
 tagline: 齁甜桂花拉糕
 projects:
   - icon: project
     name: 黑巫鸟对答案
     desc: ai生成的低质量系列文章
-    link: https://你的项目链接
+    link: /post/kuroji
 
   - icon: link
     name: 链接名称

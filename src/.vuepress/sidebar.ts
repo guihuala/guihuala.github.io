@@ -6,14 +6,14 @@ export default sidebar({
     {
       text: "oc设定",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "oc/",
+      link: "oc/",
       children: "structure",
     },
     {
-      text: "同人集合",
+      text: "同人整合",
       icon: "book",
-      prefix: "posts/",
+      prefix: "mywork/",
       children: "structure",
     },
     {
@@ -23,10 +23,5 @@ export default sidebar({
       children: "structure",
     },
     "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
   ],
 });

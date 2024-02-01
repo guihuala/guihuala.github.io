@@ -39,12 +39,12 @@ export default hopeTheme({
     description: "新鲜的桂花糕",
     intro: "/intro.html",
     medias: {
-      BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/39258274",
       GitHub: "https://github.com/guihuala",
       QQ: "https://example.com",
       Qzone: "https://example.com",
-      Twitter: "https://example.com",
-      Weibo: "https://example.com",
+      Twitter: "https://twitter.com/HoyleLorel96127",
+      Weibo: "https://weibo.com/u/5933479313",
     },
   },
 
@@ -88,6 +88,8 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
+      revealJs: true,
+      mermaid: true,
       stylize: [
         {
           matcher: "Recommended",
