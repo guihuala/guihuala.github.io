@@ -1,6 +1,5 @@
 ---
 date: 2024-01-31
-cover: https://wx2.sinaimg.cn/mw690/006tyh1fgy1hhd2uazegbj30sc0mgtc7.jpg
 category:
   - 同人创作
 tag:

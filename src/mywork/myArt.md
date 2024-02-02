@@ -24,6 +24,6 @@ tag:
 
 最近一段时间画的自己稍微满意一点的一张是这个
 
-![Alt text](https://wx2.sinaimg.cn/mw2000/006tyh1fgy1hmacafn84zj34mo1xge86.jpg "虽然其实是翻画了22年的一张图")
+![Alt text](/Users/xuzi/Desktop/myblog/my-docs/src/.vuepress/public/assets/images/龙百重绘.png "虽然其实是翻画了22年的一张图")
 
 虽然不能仔细看，细节还是一样一塌糊涂，而且这张还扣了好几天。持续性地画画真的是一件很痛苦的事情，我要尽量避免。
