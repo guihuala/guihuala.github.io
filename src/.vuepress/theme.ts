@@ -71,7 +71,12 @@ export default hopeTheme({
     git: true,
 
     searchPro: true,
-    
+
+    comment: {
+      provider: "Waline",
+      serverURL: "https://guihua-blog-7jxk7gb2l-guihualas-projects.vercel.app/", // your server url
+    },
+
     components: {
       components: [
       "Badge", 
