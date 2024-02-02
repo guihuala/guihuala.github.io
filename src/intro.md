@@ -19,4 +19,5 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 
 **产品：** 百龙
 
-
+请看看17回东方漫才吧，被龙的声音好听死了。
+<BiliBili bvid="BV1T94y1q7kX" />

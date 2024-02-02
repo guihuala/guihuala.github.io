@@ -5,7 +5,7 @@ icon: home
 title: 桂花blog主页
 heroText: false
 heroImage: /ghlg.png
-bgImage: /assets/images/星.png
+bgImage: /assets/images/osmanthus.jpeg
 heroFullScreen: true
 projects:
   - icon: /logo.ico
