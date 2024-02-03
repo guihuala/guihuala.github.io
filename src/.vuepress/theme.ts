@@ -74,7 +74,7 @@ export default hopeTheme({
 
     comment: {
       provider: "Waline",
-      serverURL: "https://guihua-blog-7jxk7gb2l-guihualas-projects.vercel.app/", // your server url
+      serverURL: "https://www.comment-waline.fun/", // your server url
     },
 
     components: {
