@@ -11,7 +11,7 @@ projects:
   - icon: /logo.ico
     name: 本blog
     desc: 原地tp
-    link: /post/kuroji
+    link: https://guihuala.github.io/
 
   - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
     name: 英文连缘维基
