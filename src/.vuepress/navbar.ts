@@ -12,6 +12,7 @@ export default navbar([
       { text: "连缘同人游戏",  link: "myLEgame" },
       { text: "同人画作",  link: "myArt" },
       { text: "同人文",  link: "myArticle" },
+      { text: "模型",  link: "model" },
       { text: "幻灯片",  link: "myPPT" },
     ],
   },
@@ -21,7 +22,6 @@ export default navbar([
     icon: "eye",
     prefix: "/posts/",
     children: [
-     
       { text: "鸡肉面条", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "chickennoodles" },
       { text: "黑巫鸟与建筑学", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "kurojiAndArch" },
       { text: "幸福鹀家人", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "happyshitodo" },

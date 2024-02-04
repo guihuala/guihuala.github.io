@@ -18,6 +18,11 @@ projects:
     desc: 角色黑当多了也不要忘记一设
     link: https://lenen.shoutwiki.com/wiki/Len%27en_Wiki
 
+  - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
+    name: 无現的惰眠記
+    desc: jks博客
+    link: https://mugenri.blog.shinobi.jp/
+
   - icon: https://static.thwiki.cc/favicon.ico
     name: thbwiki
     desc: 此生无悔入东方，来世愿生无现里

@@ -1,12 +1,12 @@
 ---
-icon: pen-to-square
+icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
 date: 2024-01-11
 category:
   - 鸟
   - 粉色
 tag:
-  - 粉色
-  - 小
+  - 伟大
+  - 荣誉
 ---
 
 # 无现里英雄人物

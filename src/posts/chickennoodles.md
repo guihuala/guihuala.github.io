@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
 date: 2024-02-01
 category:
   - 美食

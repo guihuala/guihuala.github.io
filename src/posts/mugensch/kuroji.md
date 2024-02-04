@@ -1,6 +1,6 @@
 ---
 cover: https://images.shoutwiki.com/lenen/0/01/Le01ShrineRoad.png 
-icon: pen-to-square
+icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
 date: 2024-01-31
 category:
   - 黑巫鸟

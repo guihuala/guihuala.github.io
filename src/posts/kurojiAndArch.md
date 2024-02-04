@@ -1,5 +1,6 @@
 ---
 date: 2024-02-01
+icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
 category:
   - 黑巫鸟
 tag:

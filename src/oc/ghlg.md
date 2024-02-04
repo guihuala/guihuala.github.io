@@ -39,7 +39,7 @@ footer: kiwi~~~
 
 桂花拉糕的种族是桂花树，但是还混了很多奇奇怪怪的血统。主要血统有以下三种。
 
-以下选项框中的图片来自[中文wikipidia](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5 "中文wiki百科")，可能会无法显示。
+以下选项框中的图片来自[中文wikipedia](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5 "中文wiki百科")，可能会无法显示。
 
 ::: tabs
 

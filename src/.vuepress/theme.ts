@@ -75,6 +75,13 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://www.comment-waline.fun/", // your server url
+
+      reaction: [
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_smile.png',
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_blush.png',
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_shuai.png',
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sad.png',
+      ],
     },
 
     components: {
