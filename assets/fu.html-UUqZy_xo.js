@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c,a as e}from"./app-hDF6VcwM.js";const _={},s=e("p",null,"很早之前还搞过一组oc，说早也没有很早，其实就是高中的时候。但是搞得很少，到了大学之后就没搞过了。（所以她们连一张电绘的图都没有",-1),n=e("p",null,"说是福建oc，其实只是都在福建上大学，为了方便区分就这么称呼。",-1),r=[s,n];function l(a,f){return t(),c("div",null,r)}const d=o(_,[["render",l],["__file","fu.html.vue"]]);export{d as default};
