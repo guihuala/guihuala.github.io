@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@moefy-canvas/theme-meteor':
+    specifier: ^0.5.2
+    version: 0.5.2
+
 devDependencies:
   '@vuepress/bundler-vite':
     specifier: ^2.0.0-rc.2
@@ -627,6 +632,24 @@ packages:
       '@types/markdown-it': 13.0.7
       markdown-it: 14.0.0
     dev: true
+
+  /@moefy-canvas/core@0.5.2:
+    resolution: {integrity: sha512-XkaVE91Tiwb35zFmI1DbrJpMh0xe54QbzQrc7ATwMos4C08dxBnwExwXEVS7oEct7owVDY1UWxtRRVE7smtzHw==}
+    dev: false
+
+  /@moefy-canvas/theme-meteor@0.5.2:
+    resolution: {integrity: sha512-I3XapsaAg9ZQlwh99M6PzTXH8fSNHDGkoCr+extAIT4AvVQjLehnmF+koGAIvSYZs3cijsnqYdF2NZGWiz6RmA==}
+    dependencies:
+      '@moefy-canvas/core': 0.5.2
+      '@moefy-canvas/utils': 0.5.2
+      ts-debounce: 4.0.0
+    dev: false
+
+  /@moefy-canvas/utils@0.5.2:
+    resolution: {integrity: sha512-DnI8I/cTBFfn3xoXwyyLEtye4pMI6zJFMxU1qps731xgYTWmzBqJPkZZd/2gfNnH5NnLUOGG7Ui3sMkmJ0vg0w==}
+    dependencies:
+      '@moefy-canvas/core': 0.5.2
+    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2980,7 +3003,6 @@ packages:
 
   /ts-debounce@4.0.0:
     resolution: {integrity: sha512-+1iDGY6NmOGidq7i7xZGA4cm8DAa6fqdYcvO5Z6yBevH++Bdo9Qt/mN0TzHUgcCcKv1gmh9+W5dHqz8pMWbCbg==}
-    dev: true
 
   /ts-dedent@2.2.0:
     resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==}

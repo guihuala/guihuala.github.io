@@ -6,7 +6,7 @@ export default navbar([
 
   {
     text: "同人整合",
-    icon: "reloadtime",
+    icon: "icon-wenjianjiacaidan",
     prefix: "/mywork",
     children: [
       { text: "连缘同人游戏",  link: "myLEgame" },

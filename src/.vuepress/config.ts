@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
+import Meteor from '@moefy-canvas/theme-meteor';
 
 export default defineUserConfig({
   base: "/",

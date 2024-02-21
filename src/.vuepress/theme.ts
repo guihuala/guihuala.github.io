@@ -11,7 +11,9 @@ export default hopeTheme({
   },
 
   
-  iconAssets: "//at.alicdn.com/t/c/font_4429117_ieyl61ep8k.css",
+  iconAssets: ["//at.alicdn.com/t/c/font_4429117_p9ol61krczi.css",
+    "//at.alicdn.com/t/c/font_4437936_3ad54bk00lb.css",
+  ],
 
   logo: "/桂花泥图标.png",
 
@@ -63,6 +65,7 @@ export default hopeTheme({
   },
 
   plugins: {
+
     blog: true,
 
     git: true,

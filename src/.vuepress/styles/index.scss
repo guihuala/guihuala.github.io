@@ -1,10 +1,19 @@
 // place your custom styles here
 .theme-container .vp-sidebar {
-    background-color: rgb(255, 248, 209);
+    background-color: rgba(255, 248, 210, 0.39);
 }
 
 #main-content.vp-page {
-    background-color: #bbfff5da;
+    background-color: rgba(210, 255, 251, 0.65);
+    backdrop-filter: blur(3px);
+}
+
+.theme-container{
+    background-image: url("/assets/images/IMG_8017.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 [data-theme="light"] .vp-project-card {
@@ -19,11 +28,11 @@
 }
 
 [data-theme="light"]{
-    --bg-color-back:linear-gradient(45deg,#cbeeff 0% ,#97ffff 25%,#baffde 50%, #fffcab 75%, #ffddab 100%);
+    --bg-color-back:linear-gradient(45deg,#cbeeff48 0% ,#97ffffd1 25%,#baffded7 50%, #fffcabd9 75%, #ffddab64 100%);
 }
 
 html[data-theme="dark"]{
-    --bg-color-back:linear-gradient(45deg,#82b1c9 0% ,#6dd8d8 25%,#73d0a3 50%, #dfdc76 75%, #e1b87b 100%);
+    --bg-color-back:linear-gradient(45deg,#cbeeff48 0% ,#7ae1e1d1 25%,#9beec6c0 50%, #f4da85d9 75%, #ffddab64 100%);
 }
 
 .vp-blog-hero-image{

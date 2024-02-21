@@ -1,7 +1,41 @@
 ---
-sidebar: false
-article: false
+home: true
 title: 收藏链接
+icon: icon-a-qingguikejigongdianxiangmushangchuanzhuanqu_qukuailianguanli
+heroImage: /logo.ico
+heroText: 一些神秘链接？！
+tagline: 真的会用到吗？？
+actions:
+  - text: 主页
+    link: /
+    type: primary
+
+  - text: 时间轴
+    link: /timeline
+
+  - text: 桂花拉糕
+    link: /intro
+
+features:
+  - title: wiki页面
+    icon: icon-dengdaizhong
+    details: 百科全书
+
+  - title: AI页面
+    icon: icon-gongneng
+    details: ai是本站第二作者
+
+  - title: 工具页面
+    icon: icon-a-qingguikejigongdianxiangmushangchuanzhuanqu_gongqijuguanli
+    details: 使用的各种工具型网站
+
+  - title: 有趣的页面
+    icon: icon-gongneng
+    details: 有趣最重要
+
+  - title: 官网
+    icon: icon-xuexi
+    details: 各种杂七杂八的官网
 ---
 
 总而言之这里是一个收藏了自己觉得非常有用&有趣的链接。没有预览图，就是没有预览图（
