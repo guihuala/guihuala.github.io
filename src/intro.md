@@ -5,10 +5,14 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 ---
 
 > [!tip]
-> 本blog使用[vuepress-theme-hero主题](https://theme-hope.vuejs.press/zh/)搭建。感谢主题的开发者！
+> 关于本站
+> 
+> 本blog基于[vuepress-theme-hero主题](https://theme-hope.vuejs.press/zh/)搭建。特别感谢主题的开发者！也把主题和vuepress推荐给想做博客的所有人！
 
 ::: center
 欢迎但不推荐关注我的微信公众号！
+
+很少发东西！
 :::
 
 ![Alt text](/QRcode.jpg "桂花拉糕的公众号" =200x)
@@ -23,7 +27,7 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 
 稍微听一些日系电音，喜欢的曲师是`Dachs`,`Ras`和`ginkiha`。
 
-比较喜欢`trance`、`techno`之类的流派，不过与其说是喜欢到不如说是对这些经典流派最熟悉。
+比较喜欢`trance`、`techno`之类的流派。（不过与其说是喜欢到不如说是对这些经典流派最熟悉，其他稍微冷门一点或者名字听起来复杂一点的就说不出来了吧！
 
 也是术批，喜欢的p主是`稻叶昙`、`いよわ`。
 
@@ -36,7 +40,7 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 ---
 
 ### 关于车万
-18年入坑，其实当时是因为喜欢红魔馆的女仆长入坑的，而且还是看一些什么灵长类动物也能懂的东方project入坑的。
+18年入坑，其实当时是因为喜欢红魔馆的女仆长入坑的，而且还是看一些什么灵长类动物也能懂的东方project入坑的。（萌豚
 
 喜欢船庙两作，特别喜欢命莲寺众，感觉这群人在正作中就特别有喜剧的感觉。
 
@@ -53,7 +57,7 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 
 ::: details 完全是无关紧要的东西
 
-搞百龙是因为meima老师的本，个人实在是太喜欢了反复看了好几遍。
+搞百龙是因为メイマ老师的本，个人实在是太喜欢了反复看了好几遍。
 
 不得不说原作里面对两个人的关系也没有长篇大论的描述，不过就寥寥几字，不过就这么几个字就能让我浮想联翩了，真好满足。
 
@@ -62,7 +66,8 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 ### 关于连缘
 
 19年通过绿毛娘入坑。到现在为止都没有玩过连缘的任何一部作品，所以是个云缘批。
-虽然说其实是因为现在这个系统的原因，不然多少还是会下载下来玩一两下的。
+
+虽然说其实是因为现在这个操作系统的原因，不然多少还是会下载下来玩一两下的。
 
 不太接受给鸟人加上性别。
 
@@ -102,7 +107,9 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 
 以前玩过台服，现在已经不太玩了。
 
-mafuyu推。
+真冬推。
+
+~~我磕mfen。~~
 ### 关于音游
 其实基本上只玩phigros。不管哪方面都很差，底力也好准确率也好。
 
@@ -110,11 +117,25 @@ rks14.6 好丢人啊！
 
 玩过pjsk、arcaea、voez。
 
-街机玩过华立的那两种，其他的都没玩过。
-
+街机玩过华立代理的那两种，其他的都没玩过。
 
 ### 关于曲奇
+已经很久没有关注了。
+
+曾经有一段时间对cookie星的热情度比对东方的热情度高多了。
+
 喜欢sz姐贵。
+
+### 关于术力口
+喜欢的其实不止最开头提到的那几位p主。
+
+也很喜欢煮果，r-906等等。
+
+- **最喜欢的歌曲**
+- ポストシェルター
+- ハローマリーナ
+- 命辛辛
+- 其他的想到了再写
 
 ### 杂
 之前看了17回东方漫才，被龙的声音好听死了，感觉完全就是想象中的声音。

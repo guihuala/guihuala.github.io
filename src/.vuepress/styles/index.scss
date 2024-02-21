@@ -1,1 +1,36 @@
 // place your custom styles here
+.theme-container .vp-sidebar {
+    background-color: rgb(255, 248, 209);
+}
+
+#main-content.vp-page {
+    background-color: #bbfff5da;
+}
+
+[data-theme="light"] .vp-project-card {
+    box-shadow: #80cdd1 0px 1px 3px;
+    opacity: 0.9;
+    border-top: #ffffff 2px solid;
+}
+
+[data-theme="dark"] .vp-project-card {
+    box-shadow: #97c8ff 0px 1px 3px;
+    opacity: 0.8;
+}
+
+[data-theme="light"]{
+    --bg-color-back:linear-gradient(45deg,#cbeeff 0% ,#97ffff 25%,#baffde 50%, #fffcab 75%, #ffddab 100%);
+}
+
+html[data-theme="dark"]{
+    --bg-color-back:linear-gradient(45deg,#82b1c9 0% ,#6dd8d8 25%,#73d0a3 50%, #dfdc76 75%, #e1b87b 100%);
+}
+
+.vp-blog-hero-image{
+    max-height: 25rem;
+}
+
+.vp-footer-wrapper{
+    color: #ffffff;
+    background-image: url("/assets/images/osmanthus.jpeg");
+}

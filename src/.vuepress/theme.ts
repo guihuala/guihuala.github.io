@@ -10,6 +10,7 @@ export default hopeTheme({
     url: "https://github.com/guihuala",
   },
 
+  
   iconAssets: "//at.alicdn.com/t/c/font_4429117_ieyl61ep8k.css",
 
   logo: "/桂花泥图标.png",
@@ -58,13 +59,9 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "点了也没用",
   },
 
-  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
-
-  // 在这里配置主题提供的插件
   plugins: {
     blog: true,
 
@@ -88,13 +85,13 @@ export default hopeTheme({
       components: [
       "Badge", 
       "VPCard",
+      "VPBanner",
       "BiliBili",
       "Share",
       "SiteInfo"
     ],
     },
 
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
       alert: true,

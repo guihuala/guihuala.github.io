@@ -19,6 +19,14 @@ tag:
 
 后来不知道什么原因改掉了，没有记下来只是在脑子里想的人设就是容易忘。
 
-## 广东省猫
-两位都是可爱的猫猫。
+## tes
+![Alt text](/Users/xuzi/Desktop/myblog/my-docs/src/.vuepress/public/assets/images/tes.png "阿比tes" =200x)
+<VPBanner
+  title="TES"
+  content="tes是来广东汕头，是一位广播电视学专业的大学生。"
+  background="rgba(133, 48, 70，1)"
+/>
+
+## mok
+![Alt text](/Users/xuzi/Desktop/myblog/my-docs/src/.vuepress/public/assets/images/mok.png "广东雀猫mok" =180x)
 

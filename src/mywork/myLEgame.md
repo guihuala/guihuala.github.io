@@ -5,8 +5,6 @@ category:
 tag:
   - 大坑
   - 遥遥无期
-star: true
-sticky: true
 ---
 
 # Le Monotonic World

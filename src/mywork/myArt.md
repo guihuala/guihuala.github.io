@@ -15,6 +15,8 @@ tag:
 
 微博上基本上只会有同人画作，oc之类的会发在qqkj。
 
+可能某天心情不好就开始删图（……
+
 <SiteInfo name="我的微博" url="https://weibo.com/u/5933479313" preview="https://wx4.sinaimg.cn/mw2000/006tyh1fgy1hebtd9858bj30e70e7t8x.jpg" />
 <SiteInfo name="我的黑x" url="https://twitter.com/HoyleLorel96127" preview="https://pbs.twimg.com/profile_banners/1704576222292856832/1705406600/1500x500" />
 
@@ -26,4 +28,6 @@ tag:
 
 ![Alt text](/Users/xuzi/Desktop/myblog/my-docs/src/.vuepress/public/assets/images/龙百重绘.png "虽然其实是翻画了22年的一张图")
 
-虽然不能仔细看，细节还是一样一塌糊涂，而且这张还扣了好几天。持续性地画画真的是一件很痛苦的事情，我要尽量避免。
+虽然不能仔细看，细节还是一样一塌糊涂，而且这张还扣了好几天。感觉龙的脸相当奇怪，但是也改不好。因为这张是改了一张22年画的旧图，原图二分就没有做好，到后面怎么改都改不好。所以还是别改旧图了吧？？
+
+持续性地画画真的是一件很痛苦的事情，我要尽量避免。

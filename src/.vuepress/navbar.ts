@@ -26,6 +26,7 @@ export default navbar([
       { text: "黑巫鸟与建筑学", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "kurojiAndArch" },
       { text: "幸福鹀家人", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "happyshitodo" },
       { text: "无现里英雄人物", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "mugenhero" },
+      { text: "茶百道的故事", icon: "//images.shoutwiki.com/lenen/6/64/Favicon.ico", link: "ClausAndChapanda" },
       {
         text: "无现里中学系列",
         icon: "pen-to-square",

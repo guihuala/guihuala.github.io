@@ -10,8 +10,8 @@ heroFullScreen: true
 projects:
   - icon: /logo.ico
     name: 本blog
-    desc: 原地tp
-    link: https://guihuala.github.io/
+    desc: 没东西可放了
+    link: https://ghlg.fun/
 
   - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
     name: 英文连缘维基
