@@ -5,6 +5,7 @@ icon: message
 category:
   - oc
 ---
+![oc大头，很早之前画的了](https://s2.loli.net/2024/08/07/RIvtAqKYw5jmdoS.jpg)
 
 这个目录用来存放oc的设定。
 

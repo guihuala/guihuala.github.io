@@ -26,7 +26,7 @@ tag:
 
 最近一段时间画的自己稍微满意一点的一张是这个
 
-![Alt text](/Users/xuzi/Desktop/myblog/my-docs/src/.vuepress/public/assets/images/龙百重绘.png "虽然其实是翻画了22年的一张图")
+![Alt text](/Users/xuzi/Desktop/糯米麻糍/myblog/my-docs/src/.vuepress/public/assets/images/龙百重绘.png "虽然其实是翻画了22年的一张图")
 
 虽然不能仔细看，细节还是一样一塌糊涂，而且这张还扣了好几天。感觉龙的脸相当奇怪，但是也改不好。因为这张是改了一张22年画的旧图，原图二分就没有做好，到后面怎么改都改不好。所以还是别改旧图了吧？？
 

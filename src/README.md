@@ -9,9 +9,9 @@ bgImage: /assets/images/osmanthus.jpeg
 heroFullScreen: true
 projects:
   - icon: /logo.ico
-    name: 本blog
-    desc: 没东西可放了
-    link: https://ghlg.fun/
+    name: gui-resource
+    desc: 整合了自己的创作的桂花资源站
+    link: https://ghlg.fun/gui-resource/
 
   - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
     name: 英文连缘维基
@@ -25,12 +25,12 @@ projects:
 
   - icon: https://static.thwiki.cc/favicon.ico
     name: thbwiki
-    desc: 此生无悔入东方，来世愿生无现里
+    desc: 死得好惨
     link: https://thwiki.cc/%E8%BF%9E%E7%BC%98Project
 
   - icon: https://img.alicdn.com/imgextra/i4/O1CN01c26iB51UyR3MKMFvk_!!6000000002586-2-tps-124-122.png
     name: 通义千问
-    desc: 本blog第二作者
+    desc: 本blog所有ai内容提供者
     link: https://tongyi.aliyun.com/qianwen/
 
   - icon: https://v1.vuepress.vuejs.org/logo.png

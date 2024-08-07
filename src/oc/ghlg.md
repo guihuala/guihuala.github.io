@@ -25,7 +25,7 @@ footer: kiwi~~~
 和自我介绍页面有区分，这边主要是人设的介绍。
 :::
 
-## 神秘的桂花人
+### 神秘的桂花人
 
 `桂花拉糕`就是这个青瞳棕黑发的树的名字。其实是姓`桂花`名`拉糕`。
 
@@ -37,7 +37,7 @@ footer: kiwi~~~
 
 ### 桂花拉糕的种族
 
-桂花拉糕的种族是桂花树，但是还混了很多奇奇怪怪的血统。主要血统有以下三种。
+桂花拉糕的种族是丹桂，但是自己的认知中并没有纯真的血统。桂花拉糕的认知中，她由下组成。
 
 以下选项框中的图片来自[中文wikipedia](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5 "中文wiki百科")，可能会无法显示。
 
@@ -66,4 +66,38 @@ footer: kiwi~~~
 本段文字摘自 [wiki百科对应页面](https://zh.wikipedia.org/wiki/%E9%B7%B8%E9%B4%95 "wiki百科对应页面")
 :::
 
+### 通讯方式
+桂花拉糕连接了菌丝，所以能接收到来自非常大范围的菌群收集的的情报。
 
+一定程度上对标了现实中的ai。
+
+## 亚种
+
+
+::: tabs
+
+@tab 总览
+
+![各种亚种](https://s2.loli.net/2024/08/07/UoktrBJmjaVfey7.png)
+
+@tab 疯糕
+
+![疯糕](https://s2.loli.net/2024/08/07/lzUnbaRwZSAjNMh.png)
+
+@tab:active 宅糕
+
+![死宅糕](https://s2.loli.net/2024/08/07/MSUGCPF9IvDx1sE.png)
+
+:::
+
+## 同系列角色
+
+![鼠和站长](https://s2.loli.net/2024/08/07/bHRiG9ACLekOhau.png)
+
+### rimen
+（左侧）中文名`信旅`。是一个荒废的货运火车站的站长。
+
+种族是铁轨。
+
+### zipus
+（右侧）中文名是`猫猫鼠`。
