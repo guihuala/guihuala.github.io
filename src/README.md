@@ -12,6 +12,11 @@ projects:
     name: gui-resource
     desc: 整合了自己的创作的桂花资源站
     link: https://ghlg.fun/gui-resource/
+  
+  - icon: http://localhost:8080/%E6%A1%82%E8%8A%B1%E6%B3%A5%E5%9B%BE%E6%A0%87.png
+    name: 桂贴
+    desc: 桂花论坛
+    link: http://gui-forum.cn/
 
   - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
     name: 英文连缘维基

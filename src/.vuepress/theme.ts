@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://guihuala.github.io/",
+  hostname: "https://github.com/guihuala/guihuala.github.io/tree/master",
 
   author: {
     name: "桂花拉糕",
@@ -12,14 +12,14 @@ export default hopeTheme({
 
   
   iconAssets: ["//at.alicdn.com/t/c/font_4429117_p9ol61krczi.css",
-    "//at.alicdn.com/t/c/font_4437936_3ad54bk00lb.css",
+    "//at.alicdn.com/t/c/font_4429117_p9ol61krczi.css",
   ],
 
   logo: "/桂花泥图标.png",
 
   favicon: "/logo.ico",
 
-  repo: "https://github.com/guihuala",
+  repo: "https://github.com/guihuala/guihuala.github.io/tree/master",
 
   docsDir: "src",
 
@@ -61,7 +61,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "点了也没用",
+    editLink: "github对应页面",
   },
 
   plugins: {
@@ -167,60 +167,47 @@ export default hopeTheme({
     },
 
     // 如果你需要 PWA。安装 vuepress-plugin-pwa2 并取消下方注释
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+    pwa: {
+      cacheHTML: true,
+      cachePic: true,
+      appendBase: true,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        name: "桂花小站",
+          short_name: "gui-blog",
+          description: "桂花拉糕的博客",
+          theme_color: "#5c92d1",
+        icons: [
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Demo",
+            short_name: "Demo",
+            url: "/demo/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
   },
 });

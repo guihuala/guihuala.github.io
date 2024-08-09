@@ -9,11 +9,12 @@ export default navbar([
     icon: "icon-wenjianjiacaidan",
     prefix: "/mywork",
     children: [
-      { text: "连缘同人游戏",  link: "myLEgame" },
-      { text: "同人画作",  link: "myArt" },
-      { text: "同人文",  link: "myArticle" },
-      { text: "模型",  link: "model" },
-      { text: "幻灯片",  link: "myPPT" },
+      { text: "连缘同人游戏", link: "myLEgame" },
+      { text: "同人画作", link: "myArt" },
+      { text: "同人文", link: "myArticle" },
+      { text: "模型", link: "model" },
+      { text: "音乐", link: "myMusic" },
+      { text: "幻灯片", link: "myPPT" },
     ],
   },
 
@@ -44,12 +45,12 @@ export default navbar([
   {
     text: "收藏链接",
     icon: "link",
-    link:"/link",
+    link: "/link",
   },
   {
     text: "时间轴",
     icon: "reloadtime",
-    link:"/timeline",
+    link: "/timeline",
   },
 
 ]);
