@@ -10,7 +10,7 @@ pnpm docs:build
 cd src/.vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'www.zhangshuqi.com' > CNAME
+echo 'ghlg.fun' > CNAME
 
 git init
 git checkout -b main
