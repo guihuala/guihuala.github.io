@@ -1,11 +1,11 @@
 ---
 home: true
 layout: BlogHome
-icon: home
-title: 桂花blog主页
+icon: Home
+title: 桂花小站主页
 heroText: false
 heroImage: /ghlg.png
-bgImage: /assets/images/osmanthus.jpeg
+bgImage: https://s2.loli.net/2024/08/16/SEgjWOvyzx7oeqs.jpg
 heroFullScreen: true
 projects:
   - icon: /logo.ico
@@ -13,14 +13,14 @@ projects:
     desc: 整合了自己的创作的桂花资源站
     link: https://ghlg.fun/gui-resource/
   
-  - icon: http://localhost:8080/%E6%A1%82%E8%8A%B1%E6%B3%A5%E5%9B%BE%E6%A0%87.png
+  - icon: https://ghlg.fun/%E6%A1%82%E8%8A%B1%E6%B3%A5%E5%9B%BE%E6%A0%87.png
     name: 桂贴
     desc: 桂花论坛
     link: http://gui-forum.cn/
 
   - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
     name: 英文连缘维基
-    desc: 角色黑当多了也不要忘记一设
+    desc: 观鸟
     link: https://lenen.shoutwiki.com/wiki/Len%27en_Wiki
 
   - icon: //images.shoutwiki.com/lenen/6/64/Favicon.ico
@@ -30,7 +30,7 @@ projects:
 
   - icon: https://static.thwiki.cc/favicon.ico
     name: thbwiki
-    desc: 死得好惨
+    desc: 此生无悔入咚方
     link: https://thwiki.cc/%E8%BF%9E%E7%BC%98Project
 
   - icon: https://img.alicdn.com/imgextra/i4/O1CN01c26iB51UyR3MKMFvk_!!6000000002586-2-tps-124-122.png

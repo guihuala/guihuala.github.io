@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.2",
     "@waline/client": "3.0.0-alpha.11",
+    "echarts": "^5.5.1",
     "mermaid": "^10.7.0",
     "reveal.js": "^5.0.4",
     "sass": "^1.70.0",
@@ -20,8 +21,5 @@
     "vuepress": "2.0.0-rc.2",
     "vuepress-plugin-search-pro": "2.0.0-rc.16",
     "vuepress-theme-hope": "2.0.0-rc.16"
-  },
-  "dependencies": {
-    "@moefy-canvas/theme-meteor": "^0.5.2"
   }
 }

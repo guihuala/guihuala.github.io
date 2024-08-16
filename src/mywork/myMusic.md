@@ -1,5 +1,6 @@
 ---
 date: 2024-08-09
+icon: music-library
 category:
   - 同人创作
 tag:

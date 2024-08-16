@@ -1,17 +1,11 @@
 ---
 title: 浙江oc
+icon: dog
 order: 2
 category:
   - oc
-tag:
-  - 德文卷毛猫
-  - 猞猁
 ---
 ![Alt text](https://s2.loli.net/2024/08/07/O5oBzfF2cHDZr3y.jpg "两人正在乘坐22型客车")
-
-![Alt text](https://s2.loli.net/2024/08/07/NC6FIRwU43chpEK.png "？")
-
-![摸鱼](https://s2.loli.net/2024/08/07/2hr6vs4Q9qubEIM.png)
 
 搞得最久的一些oc。从17年就开始搞了，不过旧设当然和现在没有什么一致的地方了。
 
@@ -45,9 +39,11 @@ tag:
 
 ![Alt text](https://s2.loli.net/2024/08/07/e1glqUApkGxH6ED.jpg "旧人设" =500x)
 
-![Alt text](/assets/images/zyj.png "旧人设图" =200x)
+从这张图上来看旧设总是穿着难看的束脚裤，喜欢克莱因蓝。一天到晚笑嘻嘻这一点倒是一直没变。另外旧设发色比现在要更黑。
 
-旧设发色比现在要更黑。
+![Alt text](https://s2.loli.net/2024/08/16/M74obQsWiml9R2x.png "旧人设图" =200x)
+
+这张其实不算旧设，是去年画的。
 
 ### 人物关系
 
@@ -101,7 +97,7 @@ tag:
 
 非常不喜欢拿出来看的旧人设，画这张图的时候自己的衣品真差啊。
 
-![Alt text](/assets/images/zxc.png "旧人设图" =200x)
+![Alt text](https://s2.loli.net/2024/08/16/UQZLxAqE4neHmcs.png "旧人设图" =200x)
 
 旧设发色更深一点。我怀疑是我那个时候上色整体偏深。
 
@@ -115,3 +111,11 @@ tag:
 在音乐方面经常向对方请教问题。
 
 会像小猫给自己的主人送奇怪的东西一样定期给对方送些自己认为对方会喜欢的东西。
+
+## 画廊
+
+![Alt text](https://s2.loli.net/2024/08/07/NC6FIRwU43chpEK.png "？")
+
+![摸鱼](https://s2.loli.net/2024/08/07/2hr6vs4Q9qubEIM.png)
+
+![像素风](https://s2.loli.net/2024/08/16/ht5jdsIbou1Sr7V.png)

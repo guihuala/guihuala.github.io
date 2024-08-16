@@ -5,6 +5,8 @@ icon: icon-a-qingguikejigongdianxiangmushangchuanzhuanqu_qukuailianguanli
 heroImage: /logo.ico
 heroText: 一些神秘链接？！
 tagline: 真的会用到吗？？
+heroFullScreen: true
+footer: 桂花树下桂花人
 actions:
   - text: 主页
     link: /
@@ -37,8 +39,6 @@ features:
     icon: icon-xuexi
     details: 各种杂七杂八的官网
 ---
-
-总而言之这里是一个收藏了自己觉得非常有用&有趣的链接。
 
 ## wiki类页面
 <SiteInfo name="英文连缘wiki" url="https://lenen.shoutwiki.com/wiki/Len%27en_Wiki" preview="https://s2.loli.net/2024/08/07/BGfUYTrvFE7chLV.png" />

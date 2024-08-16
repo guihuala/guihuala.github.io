@@ -1,4 +1,5 @@
 ---
+icon: lock
 category:
   - oc
 tag:

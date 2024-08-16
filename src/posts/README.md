@@ -1,7 +1,7 @@
 ---
 title: ai精品文章
 index: false
-icon: eye
+icon: aislogo
 category:
   - ai
 ---

@@ -1,5 +1,6 @@
 ---
 title: 广东oc
+icon: cat
 order: 4
 category:
   - oc
@@ -8,17 +9,17 @@ tag:
   - 棕色猫猫
 ---
 
-![Alt text](/assets/images/圣诞2023.png "广东oc如图所示" )
+![Alt text](https://s2.loli.net/2024/08/16/NF9pIBTjrWX6zub.png "广东oc" )
 
 这一组oc是我在大一的时候想出来的。大一上半学期的时候因为`一些不可以说的事件`大半个学期都是在宿舍上网课。
 上网课的时候很闲于是就想了这两个人的故事。
 
-虽然到`2024-02-01`为止都没有去过广东，但是一直很喜欢这个省份的各种文化。所以想编一个发生在广东的两个广东人的故事。
+虽然到`2024-02-01`为止都没有去过广东(不过四月左右的时候去了潮汕，以后会在杂谈里面写一下)，但是一直很喜欢这个省份的各种文化。所以想编一个发生在广东的两个广东人的故事。
 
 虽然话是这么说的，但是其实一开始其中有一位并没有设定成广东人，而设定成非广东省的一个沿海小城出身的。~~舟山~~
 
 ## tes
-![Alt text](/assets/images/tes.png "阿比tes" =200x)
+![Alt text](https://s2.loli.net/2024/08/16/le7SJBzPi2At5Wu.png "阿比tes" =200x)
 <VPBanner
   title="TES"
   content="tes来自广东汕头，是一位广播电视学专业的大学生。实际姓何。"
@@ -116,7 +117,7 @@ tes是真正的卷发（mok则是杂毛）（但是实际上我画的很多图�
 （所以就改成了“注意自己的形象”的设定）
 
 ## mok
-![Alt text](/assets/images/mok.png "广东雀猫mok" =180x)
+![Alt text](https://s2.loli.net/2024/08/16/RIJWbHNVwdm8ZfO.png "广东雀猫mok" =180x)
 
 <VPBanner
   title="MOK"
@@ -244,7 +245,7 @@ mok特别像恋恋，当然有借鉴（存疑）的成分在 。
 
 ![2022](https://s2.loli.net/2024/08/09/aUfYxXBscz326LF.jpg)
 
-![2023](/assets/images/圣诞2023.png)
+![2023](https://s2.loli.net/2024/08/16/NF9pIBTjrWX6zub.png)
 
 每年圣诞都画这俩人
 

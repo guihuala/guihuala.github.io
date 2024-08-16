@@ -1,7 +1,8 @@
 ---
 title: 桂花拉糕
-icon: circle-info
+icon: about
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive_Cake.jpg/1920px-Sweet_Tea_Olive_Cake.jpg
+
 ---
 
 > [!tip]
@@ -9,23 +10,7 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 > 
 > 本blog基于[vuepress-theme-hero主题](https://theme-hope.vuejs.press/zh/)搭建。特别感谢主题的开发者！也把主题和vuepress推荐给想做博客的所有人！
 
-::: center
-欢迎但不推荐关注我的微信公众号！
 
-很少发东西！
-:::
-
-![Alt text](/QRcode.jpg "桂花拉糕的公众号" =200x)
-
-```component VPBanner
-title: 桂花资源站
-content: 整合了我制作的游戏和网站
-logo: https://ghlg.fun/gui-resource/public/%E6%A1%82%E8%8A%B1%E6%8B%89%E7%B3%95%E8%BA%BA.png
-color: var(--banner-text)
-actions:
-  - text: 前往
-    link: https://ghlg.fun/gui-resource/
-```
 ## 桂花拉糕简介
 
 ### 概况
@@ -55,31 +40,9 @@ actions:
 
 只玩台服，日服玩了一次被封了谷歌号再也没玩过了。哪天国服出了可能会去玩一下。水平很差，舒适区是27、28、29这样的难度。
 
+~~台服还是游客登录~~
+
 ![多卖](https://s2.loli.net/2024/08/07/JYU1bEf7ZtaAunr.jpg)
-
-### 关于车万
-18年入坑，其实当时是因为喜欢红魔馆的女仆长入坑的，而且还是看一些什么灵长类动物也能懂的东方project入坑的。（萌豚
-
-喜欢船庙两作，特别喜欢命莲寺众，感觉这群人在正作中就特别有喜剧的感觉。
-
-- **最喜欢的音乐：** 
-  - 欲望加速
-  - 春之岸边
-- **推：** 
-  - 饭纲丸龙 
-  - 射命丸文 
-  - ~~灵梦太火了还是算了不写了~~
-- **产品：** 
-  - 百龙 
-  - ~~以前搞过不死组~~
-
-::: details 完全是无关紧要的东西
-
-搞百龙是因为メイマ老师的本，个人实在是太喜欢了反复看了好几遍。
-
-不得不说原作里面对两个人的关系也没有长篇大论的描述，不过就寥寥几字，不过就这么几个字就能让我浮想联翩了，真好满足。
-
-:::
 
 ### 关于连缘
 
@@ -119,6 +82,35 @@ actions:
 一直想要翻画一下但是觉得实在是太累于是到现在也没什么进展。
 
 :::
+
+### 关于车万
+18年入坑，其实当时是因为喜欢红魔馆的女仆长入坑的，而且还是看一些什么灵长类动物也能懂的东方project入坑的。（萌豚
+
+喜欢船庙两作，特别喜欢命莲寺众，感觉这群人在正作中就特别有喜剧的感觉。
+
+也很喜欢虹龙洞渲染出来的那种氛围...（其实也不知道是什么样的氛围）
+
+- **最喜欢的音乐：** 
+  - 欲望加速
+  - 春之岸边
+- **推：** 
+  - 饭纲丸龙 
+  - 射命丸文 
+  - ~~灵梦太火了还是算了不写了~~
+- **产品：** 
+  - 百龙 
+  - 轮船
+  - ~~以前搞过不死组~~现在已经完全无感了
+
+::: details 完全是无关紧要的东西
+
+搞百龙是因为メイマ老师的本，个人实在是太喜欢了反复看了好几遍。
+
+不得不说原作里面对两个人的关系也没有长篇大论的描述，不过就寥寥几字，不过就这么几个字就能让我浮想联翩了，真好满足。
+
+:::
+
+
 
 ### 关于邦邦
 因为买狗才去了解的（抱歉）
@@ -163,7 +155,7 @@ rks14.6 好丢人啊！（最近升了一点但不多，但是又不怎么玩了
 - 命辛辛
 - 其他的想到了再写
 
-### 杂
+### 杂谈
 之前看了17回东方漫才，被龙的声音好听死了，感觉完全就是想象中的声音。
 
 ::: tip
@@ -171,3 +163,20 @@ rks14.6 好丢人啊！（最近升了一点但不多，但是又不怎么玩了
 :::
 
 <BiliBili bvid="BV1T94y1q7kX" />
+
+## 关注我
+
+::: center
+**欢迎但不推荐关注我的微信公众号！**
+
+很少发东西！
+:::
+
+![Alt text](/QRcode.jpg "桂花拉糕的公众号" =200x)
+
+### 我的其他网站
+
+此处的网站以及本站全部都基于github上的开源项目，感谢开源！希望未来几年自己也能成为通过编程帮助他人的人。
+<SiteInfo name="桂花资源站" url="https://ghlg.fun/gui-resource/" preview="https://s2.loli.net/2024/08/16/W9lMZBh6n5abHD8.png" />
+<SiteInfo name="桂贴" url="http://gui-forum.cn/" preview="https://s2.loli.net/2024/08/16/BGlSKaFp9oV64nt.png" />
+<SiteInfo name="gui-zone" url="http://ghlg.fun/Gui-zone/" preview="https://s2.loli.net/2024/08/16/QbsziVOWRXrETMy.png" />
