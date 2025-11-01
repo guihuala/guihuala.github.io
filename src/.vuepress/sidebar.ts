@@ -3,12 +3,12 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/": [
     "",
-    
-    {
-      text: "ai精品文章",
-      icon: "aislogo",
-      prefix: "posts/",
-      link: "posts/",
+
+        {
+      text: "游戏开发",
+      icon: "games-",
+      prefix: "mygame/",
+      link: "mygame/",
       collapsible: true,
       children: "structure",
     },
@@ -36,7 +36,11 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
-    "myPPT",
+    {
+      text: "桌面",
+      icon: "houtaixitong",
+      link: "https://ghlg.fun/laptop/",
+    },
     "intro",
   ],
 });

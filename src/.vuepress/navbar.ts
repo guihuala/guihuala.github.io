@@ -6,7 +6,7 @@ export default navbar([
   {
     text: "文章",
     icon: "Article",
-    link: "/posts/",
+    link: "/mygame/",
   },
   {
     text: "咖啡厅",
@@ -17,11 +17,6 @@ export default navbar([
     text: "收藏链接",
     icon: "link",
     link: "/link",
-  },
-  {
-    text: "时间轴",
-    icon: "ic_timeline",
-    link: "/timeline",
   },
 
 ]);

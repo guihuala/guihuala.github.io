@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://github.com/guihuala/guihuala.github.io/tree/master",
+  hostname: "ghlg.fun",
   author: {
     name: "桂花拉糕",
     url: "https://github.com/guihuala",
@@ -13,7 +13,8 @@ export default hopeTheme({
   ],
   logo: "/桂花泥图标.png",
   favicon: "/logo.ico",
-  repo: "https://github.com/guihuala/guihuala.github.io/tree/main",
+  repo: "https://github.com/guihuala/guihuala.github.io",
+  docsBranch: "master",
   docsDir: "src",
   lastUpdated: true,
   fullscreen: true,
@@ -24,7 +25,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ['Brand',],
     center: ['Links',],
-    end: ['Search', 'Repo', 'Outlook',],
+    end: [ 'Repo', 'Outlook','Search',],
   },
   // 侧边栏
   sidebar,
@@ -41,8 +42,6 @@ export default hopeTheme({
     medias: {
       BiliBili: "https://space.bilibili.com/39258274",
       GitHub: "https://github.com/guihuala",
-      Twitter: "https://twitter.com/HoyleLorel96127",
-      Weibo: "https://weibo.com/u/5933479313",
     },
   },
 

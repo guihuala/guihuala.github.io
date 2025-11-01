@@ -8,14 +8,18 @@ tag:
 ---
 # 同人音乐
 
-虽然几乎不懂音乐，但是为了模仿jynx和zun这样的独游开发者还是硬着头皮做了一些曲子。
+虽然几乎不懂音乐，但是还是硬着头皮做了一些曲子。
+
+库乐队战士。其实本来也想用一用水果或者logic pro之类的专业一点的，又感觉自己的水平算了算了别浪费钱了。
+
+上一次试着做音乐还是上次（什么），回忆了一下应该是24年上半年了。本来当时的自己还想到了明年的时候应该会进步不少，没想到直接荒废了。
 
 网站直接放在了github上，加载资源可能会比较慢。
 
 ```component VPBanner
 title: 桂花musicroom
 content: 整合了自作曲
-logo: https://ghlg.fun/gui-resource/public/%E6%A1%82%E8%8A%B1%E6%8B%89%E7%B3%95%E8%BA%BA.png
+logo: /桂花泥图标.png
 color: var(--banner-text)
 actions:
   - text: 前往
