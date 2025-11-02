@@ -13,11 +13,6 @@ icon: coffee
 
 :::
 
-
-<weather />
-
-<timer />
-
 ## 画板
 
 > [!tip]
