@@ -15,6 +15,8 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 
 我是桂花拉糕，画手，游戏程序美术，偶尔会做一些模型、不好听的音乐和网页。
 
+喜欢一些音企，是术批。百合豚。
+
 ![](https://s2.loli.net/2025/06/15/wVrEjU3OnQiyCqb.png)
 
 ---
@@ -48,6 +50,11 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 一直想要翻画一下但是觉得实在是太累于是到现在也没什么进展。
 
 :::
+
+### 关于百合
+著名作品都会看
+
+喜欢的作品基本上是口碑最好的那几个，安岛、终将、周次这些的。然后我很多平台上的头像还是漫画安达）
 
 ### 关于imas
 浓度不是很高，不玩游戏只云剧情
