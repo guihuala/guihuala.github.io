@@ -8,11 +8,6 @@ heroImage: /ghlg.png
 bgImage: https://s2.loli.net/2025/01/02/HXMTzwcnQCOh65b.jpg
 heroFullScreen: true
 projects:
-  
-  - icon: https://ghlg.fun/%E6%A1%82%E8%8A%B1%E6%B3%A5%E5%9B%BE%E6%A0%87.png
-    name: 桂贴
-    desc: 桂花论坛
-    link: http://gui-forum.cn/
 
   - icon: https://s2.loli.net/2024/08/18/qQGEbvcXSPOCskD.png
     name: 我的桌面

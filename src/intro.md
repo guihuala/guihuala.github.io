@@ -128,8 +128,3 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 :::
 
 ![Alt text](/QRcode.jpg "桂花拉糕的公众号" =200x)
-
-### 我的其他网站
-
-此处的网站以及本站全部都基于github上的开源项目，感谢开源！希望未来几年自己也能成为通过编程帮助他人的人。
-<SiteInfo name="桂贴" url="http://gui-forum.cn/" preview="https://s2.loli.net/2024/08/16/BGlSKaFp9oV64nt.png" />

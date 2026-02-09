@@ -4,7 +4,7 @@ category:
   - 游戏开发
 ---
 
-# Check your ticket
+# Check my ticket
 
 参加ld58做的游戏，负责了程序，和引擎内全部的工作。当然后来策划也来亲自修了一些bug。
 

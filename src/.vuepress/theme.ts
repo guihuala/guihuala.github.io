@@ -25,7 +25,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ['Brand',],
     center: ['Links',],
-    end: [ 'Repo', 'Outlook','Search',],
+    end: ['Repo', 'Outlook', 'Search',],
   },
   // 侧边栏
   sidebar,
@@ -60,16 +60,7 @@ export default hopeTheme({
     blog: true,
     git: true,
     searchPro: true,
-    comment: {
-      provider: "Waline",
-      serverURL: "https://www.comment-waline.fun/", // your server url
-      reaction: [
-        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_smile.png',
-        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_blush.png',
-        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_shuai.png',
-        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sad.png',
-      ],
-    },
+    comment: {},
     components: {
       components: [
         "Badge",
