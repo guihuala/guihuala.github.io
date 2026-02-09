@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{f as t,o as n,c as a,g as c,a as s}from"./app-_Y9xtKYM.js";const r={},_=s("p",null,"既然是博客，总该有这种内容。",-1);function l(m,d){const e=t("AutoCatalog");return n(),a("div",null,[_,c(e)])}const p=o(r,[["render",l],["__file","index.html.vue"]]);export{p as default};

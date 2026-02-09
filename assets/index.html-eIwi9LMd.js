@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{f as t,o as a,c as n,d as c,g as r,a as s}from"./app-_Y9xtKYM.js";const _={},l=s("p",null,"这个目录用来整合自己创作的一些同人。",-1);function m(d,f){const e=t("AutoCatalog");return a(),n("div",null,[l,c(" more "),r(e)])}const u=o(_,[["render",m],["__file","index.html.vue"]]);export{u as default};
