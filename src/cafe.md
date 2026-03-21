@@ -24,22 +24,7 @@ icon: coffee
 
 ## 2048mini
 
-> [!tip]
-> 移动端无法互动。
->
-
 <gameOne />
-
-## 打阐里之瞳
-
-<gameTwo />
-
-## 欢迎下次再来！
-
-本页面会持续更新有点意思但是又很无聊的vue组件。
-
-喜欢可以分享！
-<Share />
 
 <script setup>
 import gameOne from "@source/components/gameOne.vue";

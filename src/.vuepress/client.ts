@@ -1,5 +1,6 @@
 import { defineClientConfig } from 'vuepress/client';
 import { onMounted } from 'vue';
+import { setupDesktopEffects } from "./utils/desktopEffects.js";
 
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import 'vuepress-theme-hope/presets/bounce-icon.scss';
@@ -8,6 +9,7 @@ export default defineClientConfig({
   setup() {
     onMounted(() => {
         console.log("请不要检查... \n ---ghlg");
+        setupDesktopEffects();
     });
     setupRunningTimeFooter(
         new Date("2024-02-01"),

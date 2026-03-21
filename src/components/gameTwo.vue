@@ -1,100 +1,193 @@
 <template>
-  <div class="whack-a-mole">
-    <div v-for="(hole, index) in holes" :key="index" class="hole" @click="hitMole(index)">
-      <div class="mole" v-if="hole"></div>
+  <section class="mole-card">
+    <header class="mole-header">
+      <h3>打地鼠</h3>
+      <div class="stats">
+        <span>分数 {{ score }}</span>
+        <span>倒计时 {{ timeLeft }}s</span>
+        <span>最高 {{ bestScore }}</span>
+      </div>
+    </header>
+
+    <div class="holes">
+      <button
+        v-for="(_, index) in holes"
+        :key="index"
+        type="button"
+        class="hole"
+        :class="{ active: activeHole === index }"
+        @click="hitMole(index)"
+      >
+        <span class="mole">🦔</span>
+      </button>
     </div>
-    <p>分数: {{ score }}</p>
-    <button @click="startGame">开始</button>
-  </div>
+
+    <p class="status">{{ statusText }}</p>
+    <button type="button" class="action" @click="startGame">
+      {{ isRunning ? "重新开局" : "开始游戏" }}
+    </button>
+  </section>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      holes: Array(10).fill(false),
+      holes: Array(12).fill(false),
+      activeHole: -1,
       score: 0,
-      gameInterval: null
+      bestScore: 0,
+      timeLeft: 30,
+      isRunning: false,
+      roundTimer: null,
+      spawnTimer: null,
+      statusText: "点击开始，30 秒内尽可能多击中地鼠。",
     };
+  },
+  mounted() {
+    this.bestScore = Number(localStorage.getItem("whack-best-score") || 0);
+  },
+  beforeUnmount() {
+    this.stopGame(false);
   },
   methods: {
     startGame() {
+      this.stopGame(false);
       this.score = 0;
-      this.holes = Array(10).fill(false);
-      this.gameInterval = setInterval(this.randomMole, 1000);
-      setTimeout(() => {
-        clearInterval(this.gameInterval);
-        alert('游戏结束！');
-      }, 30000); // 游戏时间30秒
-    },
-    randomMole() {
-      // 重置所有洞
-      this.holes = Array(10).fill(false);
+      this.timeLeft = 30;
+      this.activeHole = -1;
+      this.isRunning = true;
+      this.statusText = "游戏进行中，加油！";
 
-      // 随机选择一个洞来放置地鼠
-      const randomIndex = Math.floor(Math.random() * 10);
-      this.holes[randomIndex] = true;
+      this.roundTimer = setInterval(() => {
+        this.timeLeft -= 1;
+        if (this.timeLeft <= 0) this.stopGame(true);
+      }, 1000);
+
+      this.spawnMole();
+      this.spawnTimer = setInterval(this.spawnMole, 620);
+    },
+    stopGame(announce = true) {
+      clearInterval(this.roundTimer);
+      clearInterval(this.spawnTimer);
+      this.roundTimer = null;
+      this.spawnTimer = null;
+      this.activeHole = -1;
+
+      if (!this.isRunning) return;
+      this.isRunning = false;
+      this.bestScore = Math.max(this.bestScore, this.score);
+      localStorage.setItem("whack-best-score", String(this.bestScore));
+      if (announce) this.statusText = `游戏结束，本局得分 ${this.score}。`;
+    },
+    spawnMole() {
+      const previous = this.activeHole;
+      let next = Math.floor(Math.random() * this.holes.length);
+      if (next === previous) next = (next + 1) % this.holes.length;
+      this.activeHole = next;
     },
     hitMole(index) {
-      if (this.holes[index]) {
-        this.score++;
-        this.holes[index] = false;
-      }
-    }
+      if (!this.isRunning || this.activeHole !== index) return;
+      this.score += 1;
+      this.activeHole = -1;
+      setTimeout(() => {
+        if (this.isRunning && this.activeHole === -1) this.spawnMole();
+      }, 90);
+    },
   },
-  beforeDestroy() {
-    clearInterval(this.gameInterval);
-  }
 };
 </script>
 
 <style scoped>
-.whack-a-mole {
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
+.mole-card {
+  width: min(520px, 100%);
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 188, 212, 0.24);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 26px rgba(2, 132, 199, 0.14);
+}
+
+.mole-header h3 {
+  margin: 0;
+  color: #02738a;
+}
+
+.stats {
+  margin-top: 0.55rem;
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.stats span {
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #fff9c4;
+  color: #03618f;
+  font-weight: 800;
+  font-size: 0.82rem;
+}
+
+.holes {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
 }
 
 .hole {
-  width: 60px;
-  height: 60px;
-  background: #227966;
-  margin: 5px;
-  border-radius: 50%;
   position: relative;
-  display: inline-block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 50%;
+  background: radial-gradient(circle at 45% 35%, #1d9aa9 0%, #02738a 78%);
   cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.12s ease;
+}
+
+.hole:hover {
+  transform: translateY(-1px);
 }
 
 .mole {
-  width: 50px;
-  height: 50px;
-  background: url(//images.shoutwiki.com/lenen/6/64/Favicon.ico);
-  background-repeat: no-repeat;
-  background-position: center;
   position: absolute;
-  top: 5px;
-  left: 5px;
+  left: 50%;
+  bottom: -50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  opacity: 0;
+  transition: bottom 0.15s ease, opacity 0.15s ease;
 }
 
-p {
-  font-size: 18px;
-  font-weight: bold;
+.hole.active .mole {
+  bottom: 14%;
+  opacity: 1;
 }
 
-button {
-  border: 0px;
-  background: #ffd166;
-  height: 3rem;
-  margin: 0.5rem 0.5rem;
-  padding: 0rem 0.5rem;
-  border-radius: 1.5rem;
-  font-size: 1rem;
-  line-height: 3;
-  text-align: center;
+.status {
+  min-height: 1.4rem;
+  margin: 0.8rem 0 0;
+  color: #03618f;
+  font-weight: 700;
 }
 
-button:hover {
-  background: #ffdf95;
+.action {
+  margin-top: 0.4rem;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  background: #ffd54f;
+  color: #035f78;
+  height: 2.6rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.action:hover {
+  background: #ffe082;
 }
 </style>

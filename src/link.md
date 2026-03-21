@@ -5,7 +5,6 @@ icon: icon-a-qingguikejigongdianxiangmushangchuanzhuanqu_qukuailianguanli
 heroImage: /logo.ico
 heroText: 一些神秘链接？！
 tagline: 真的会用到吗？？
-heroFullScreen: true
 footer: 桂花树下桂花人
 actions:
   - text: 主页
@@ -14,9 +13,6 @@ actions:
 
   - text: 时间轴
     link: /timeline
-
-  - text: 桂花拉糕
-    link: /intro
 
 features:
   - title: wiki页面
