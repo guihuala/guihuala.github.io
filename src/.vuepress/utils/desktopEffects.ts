@@ -363,6 +363,13 @@ const setupCustomFooter = (teardowns: Teardown[]): void => {
   });
 };
 
+export const setCustomFooterVisibility = (isHomePage: boolean): void => {
+  const footer = document.querySelector<HTMLElement>(".ghlg-custom-footer");
+
+  if (footer) footer.hidden = !isHomePage;
+  document.documentElement.classList.toggle("ghlg-footer-replaced", isHomePage);
+};
+
 export const setupDesktopEffects = (): Teardown => {
   const teardowns: Teardown[] = [];
   setupParticleBackground(teardowns);

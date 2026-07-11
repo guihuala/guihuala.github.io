@@ -14,14 +14,12 @@ tag:
 
 上一次试着做音乐还是上次（什么），回忆了一下应该是24年上半年了。本来当时的自己还想到了明年的时候应该会进步不少，没想到直接荒废了。
 
-网站直接放在了github上，加载资源可能会比较慢。
+提供一首（也是唯一一首）能听一点的试听。
 
-```component VPBanner
-title: 桂花musicroom
-content: 整合了自作曲
-logo: /桂花泥图标.png
-color: var(--banner-text)
-actions:
-  - text: 前往
-    link: https://ghlg.fun/gui-musicroom/
-```
+<MusicPlayer
+  src="/music/青色的蛇.mp3"
+  title="青色的蛇（hebibibi主题曲）"
+  artist="me"
+/>
+
+（其实以前还有一个类似music room的线上网站，前段时间为了清理github仓库把它删掉了）
