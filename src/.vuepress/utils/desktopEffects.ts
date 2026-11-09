@@ -337,19 +337,19 @@ const setupCustomFooter = (teardowns: Teardown[]): void => {
         </div>
       </div>
       <div class="ghlg-custom-footer__right">
-        <a class="ghlg-custom-footer__blog" href="https://game-developer-portfolio-tau.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a class="ghlg-custom-footer__blog" href="https://guihuala.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a>
         <div class="ghlg-custom-footer__socials">
           <a href="https://github.com/guihuala" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.1c-3.4.7-4.1-1.5-4.1-1.5-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.7-2.7-.3-5.5-1.4-5.5-6.1 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.8-2.9 5.8-5.6 6.1.4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.1c-3.4.7-4.1-1.5-4.1-1.5-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.7-2.7-.3-5.5-1.4-5.5-6.1 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.8-2.9 5.8-5.6 6.1.4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
           </a>
           <a href="https://twitter.com/mokukeki" target="_blank" rel="noopener noreferrer" title="Twitter / X" aria-label="Twitter / X">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.3l-4.9-6.4L6.2 22H3l7.3-8.3L1 2h6.5l4.4 5.8L18.9 2zm-1.1 18h1.8L6.5 3.9H4.6L17.8 20z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.3l-4.9-6.4L6.2 22H3l7.3-8.3L1 2h6.5l4.4 5.8L18.9 2zm-1.1 18h1.8L6.5 3.9H4.6L17.8 20z"/></svg>
           </a>
           <a href="https://space.bilibili.com/39258274" target="_blank" rel="noopener noreferrer" title="Bilibili" aria-label="Bilibili">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 4.3 6.7 2.9a1 1 0 1 0-1.4 1.4l1.5 1.4H5a3 3 0 0 0-3 3v8.3a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V8.7a3 3 0 0 0-3-3h-1.8l1.5-1.4a1 1 0 1 0-1.4-1.4l-1.5 1.4h-7.6zm-1.7 5.2a1.1 1.1 0 0 1 1.1 1.1v2.8a1.1 1.1 0 1 1-2.2 0v-2.8a1.1 1.1 0 0 1 1.1-1.1zm11 0a1.1 1.1 0 0 1 1.1 1.1v2.8a1.1 1.1 0 1 1-2.2 0v-2.8a1.1 1.1 0 0 1 1.1-1.1zM9 17h6a1 1 0 1 0 0-2H9a1 1 0 1 0 0 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 3 3m5-3-3 3"/><rect x="3" y="6" width="18" height="15" rx="4"/><path d="M8 11v3m8-3v3m-6 3h4"/></svg>
           </a>
           <a href="https://guihuala.itch.io/" target="_blank" rel="noopener noreferrer" title="Itch.io" aria-label="Itch.io">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.4 9.1c.2-.7.8-1.2 1.6-1.2h14c.8 0 1.5.5 1.6 1.2l1 4.6a1.7 1.7 0 0 1-1.7 2.1h-1.1v2a2 2 0 0 1-2 2h-1.3a2 2 0 0 1-2-2v-2h-3a2 2 0 0 1-2 2H7.2a2 2 0 0 1-2-2v-2H4.1a1.7 1.7 0 0 1-1.7-2.1l1-4.6zm2.8-2.6a2.2 2.2 0 1 1 4.4 0h2.8a2.2 2.2 0 1 1 4.4 0h1.5v-.8a2.8 2.8 0 0 0-2.8-2.8H7.5a2.8 2.8 0 0 0-2.8 2.8v.8h1.5z"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11v9h16v-9M3 7l2-4h14l2 4H3Zm0 0v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7"/><path d="M9 14h6l1 3h-2l-1-1h-2l-1 1H8Z"/></svg>
           </a>
         </div>
       </div>
@@ -363,11 +363,11 @@ const setupCustomFooter = (teardowns: Teardown[]): void => {
   });
 };
 
-export const setCustomFooterVisibility = (isHomePage: boolean): void => {
+export const setCustomFooterVisibility = (isVisible: boolean): void => {
   const footer = document.querySelector<HTMLElement>(".ghlg-custom-footer");
 
-  if (footer) footer.hidden = !isHomePage;
-  document.documentElement.classList.toggle("ghlg-footer-replaced", isHomePage);
+  if (footer) footer.hidden = !isVisible;
+  document.documentElement.classList.toggle("ghlg-footer-replaced", isVisible);
 };
 
 export const setupDesktopEffects = (): Teardown => {

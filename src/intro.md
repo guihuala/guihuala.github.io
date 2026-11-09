@@ -52,7 +52,7 @@ cover: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Sweet_Tea_Olive
 ### imas
 闪彩 > 本家 > sideM > 学 剩下两个还没了解过
 
-在玩cpsp，喜欢ash。虽然还没有开始玩学mas，但是对筱泽广很有好感。
+在玩scsp，喜欢ash。虽然还没有开始玩学mas，但是对筱泽广很有好感。
 
 真的太喜欢下垂眼萌妹了...
 
@@ -63,7 +63,7 @@ bangdream手游玩过一点时间，觉得有点适应不了就放弃了。
 
 好感角色soyo、msk。
 
-### 关于LL
+### LoveLive
 虽然是入宅作，现在已经不太关注了。
 
 以前最喜欢的cp是海鸟。

@@ -400,14 +400,15 @@ html.has-custom-cursor textarea {
 .ghlg-cursor-dot {
   width: 12px;
   height: 12px;
-  z-index: 10000;
+  // Keep both cursor layers above the custom context menu (11000).
+  z-index: 12001;
   background: var(--ghlg-cyan-main);
 }
 
 .ghlg-cursor-ring {
   width: 36px;
   height: 36px;
-  z-index: 9999;
+  z-index: 12000;
   border: 2px solid var(--ghlg-yellow-main);
 }
 
@@ -541,7 +542,7 @@ html.has-custom-cursor textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
+  height: 44px;
   padding: 0 18px;
   border-radius: 999px;
   font-size: 13px;
@@ -562,29 +563,27 @@ html.has-custom-cursor textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 999px;
-  border: 1px solid rgba(0, 188, 212, 0.25);
-  background: rgba(255, 255, 255, 0.9);
-  color: #0284c7;
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.03em;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: #055b88;
   text-decoration: none;
-  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+  transition: color 0.16s ease, background-color 0.16s ease, border-color 0.16s ease;
 }
 
 .ghlg-custom-footer__socials svg {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
 }
 
 .ghlg-custom-footer__socials a:hover {
-  transform: translateY(-2px);
-  border-color: rgba(0, 188, 212, 0.55);
-  box-shadow: 0 8px 14px rgba(0, 188, 212, 0.22);
+  color: #007c91;
+  background: rgba(0, 188, 212, 0.08);
+  border-color: rgba(0, 188, 212, 0.2);
 }
 
 [data-theme="dark"] .ghlg-custom-footer {
@@ -599,14 +598,15 @@ html.has-custom-cursor textarea {
 }
 
 [data-theme="dark"] .ghlg-custom-footer__socials a {
-  border-color: rgba(158, 231, 241, 0.22);
-  background: rgba(11, 25, 34, 0.9);
+  border-color: transparent;
+  background: transparent;
   color: #9ee7f1;
 }
 
 [data-theme="dark"] .ghlg-custom-footer__socials a:hover {
-  border-color: rgba(255, 249, 196, 0.55);
-  box-shadow: 0 8px 16px rgba(255, 213, 79, 0.16);
+  color: #cdeff3;
+  background: rgba(158, 231, 241, 0.1);
+  border-color: rgba(158, 231, 241, 0.22);
 }
 
 html.ghlg-footer-replaced .vp-footer-wrapper,
@@ -641,5 +641,17 @@ html.ghlg-footer-replaced .theme-container .vp-page {
   .ghlg-custom-footer__contact {
     font-size: 13px;
     gap: 8px 12px;
+  }
+}
+
+.ghlg-custom-footer__socials a:focus-visible,
+.ghlg-custom-footer__blog:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ghlg-custom-footer__socials a {
+    transition: none;
   }
 }

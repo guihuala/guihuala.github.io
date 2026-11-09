@@ -22,7 +22,7 @@ export default defineClientConfig({
 
         watch(
           () => page.value.path,
-          (path) => setCustomFooterVisibility(path === "/"),
+          (path) => setCustomFooterVisibility(path === "/" || path === "/link.html" || path === "/link"),
           { immediate: true },
         );
     });
