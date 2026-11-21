@@ -1,0 +1,43 @@
+Valkyrie Audio Credits
+
+Music by Alexander Nakarada (CreatorChords)
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Celtic Atmosphere
+https://creatorchords.com/music/celtic-atmosphere/
+
+Mjolnir
+https://creatorchords.com/music/mjolnir/
+Playback starts partway into the track at the start of the race.
+
+Gjallar
+https://creatorchords.com/music/gjallar/
+
+Music is mixed underneath gameplay and faded at phase transitions.
+
+Sound effects from Freesound
+CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+horse_galloping.wav by telezon
+https://freesound.org/people/telezon/sounds/368583/
+Edited into a loop for the player mount.
+
+forest light wind through bare trees winter GREAT FOR FALLING SNOW.flac by kyles
+https://freesound.org/people/kyles/sounds/637566/
+Edited into a loop for the forest and snowfield.
+
+drop of water by icsp
+https://freesound.org/people/icsp/sounds/725032/
+Trimmed for the Dew pickup.
+
+Gem Sparkle by Qvantor
+https://freesound.org/people/Qvantor/sounds/878614/
+Shortened for the Frost pickup.
+
+Gate door drawbridge wooden creaky opens closes hinge.wav by WavJunction.com
+https://freesound.org/people/WavJunction.com/sounds/456763/
+Opening excerpt, mixed to mono for the gate's spatial audio source.
+
+The sound effects were edited from the public high-quality previews.
